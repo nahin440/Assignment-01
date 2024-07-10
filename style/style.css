@@ -1,0 +1,255 @@
+
+
+.font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+}
+
+
+/* header contant */
+
+.nav{
+    display: flex;
+    margin: 40px 100px;
+    justify-content: space-between;
+}
+
+.navbutton {
+    border-radius: 5px;
+    width: auto 200px;
+    height: auto 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.head-align{
+    text-align: center;
+    
+}
+
+.head-bg{
+    background-image: url('../Hero-bg.png');
+    margin: 80px 15px 10px 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.head-button{
+    
+    width: auto 200px;
+    height: auto 60px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+    padding: 14px 18px 14px 18px
+    
+}
+
+/* main style :: */
+
+.main-title{
+text-align: center;
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;}
+
+.main-sub{
+   margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+/* main scnd */
+
+.first-main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+    margin: 30px 40px 30px 40px;
+    padding: 20px 30px 20px 30px ;
+    
+}
+
+.first-column{
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.first-title{
+    width: 390px;
+    height: 72px;
+    margin: 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.first-desc{
+    color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+/* inspiration section */
+
+.inspire{
+    margin: 10px 12px 10px 12px;
+
+    padding-top: 5%;
+
+    padding-left: 0%;
+
+}
+.inspire-title{
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.inspire-desc{
+    padding-bottom: 4%;
+    
+}
+
+/* target section */
+
+.target-head{
+
+}
+
+/* target boxes */
+.main{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    
+    
+}
+
+
+.skills{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+background: rgba(13, 19, 33, 0.02);
+}
+
+.skills-container{
+    padding-top: 5%;
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    
+    border-radius: 20px;
+     color: rgb(0, 0, 0);
+     background-color: rgba(255, 223, 0, 0.05);
+     
+    }
+
+.skilll{
+        padding: 30px;
+        
+        border-radius: 20px;
+         color: rgb(0, 0, 0);
+         background-color:rgba(0, 76, 232, 0.05);
+         
+        }
+
+.skillll{
+            padding: 30px;
+            border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+            border-radius: 20px;
+             color: rgb(0, 0, 0);
+             
+            }
+
+/* footer style */
+
+.footer{
+    background-image: url('../handshake.jpg');
+    padding: 5% 0% 5% 0%;
+    border-radius: 16px;
+
+}
+
+.footer-title{
+    color: white;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+
+.support-desc{
+
+    padding: 1% 5% 1% 5%;
+}
+
+.support-ti-desc{
+    color: white;
+}
+
+.support-input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+
+position: static;
+width: 548px;
+height: 57px;
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+    
+}
+
+.support-button{
+position: static;
+width: 140px;
+height: 58px;
+align-items: center;
+padding: 12px 16px 12px 16px;
+
+
+
+
+margin: 0px 12px;
+
+}
+
+
+/* footer image and name */
+
+.footer-image{
+    font-display: flex;
+
+}
