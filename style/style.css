@@ -21,6 +21,8 @@
     width: auto 200px;
     height: auto 60px;
     background-color: rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .head-align{
@@ -28,11 +30,17 @@
     
 }
 
+.head-desc{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .head-bg{
     background-image: url('../Hero-bg.png');
     margin: 80px 15px 10px 10px;
     padding-top: 4%;
     padding-bottom: 4%;
+    margin-bottom: 5%;
     
 }
 
@@ -66,9 +74,8 @@ font-weight: 800;}
 .first-main{
     display: flex;
     justify-content: space-evenly;
-    gap: 300px;
-    margin: 30px 40px 30px 40px;
-    padding: 20px 30px 20px 30px ;
+   
+ 
     
 }
 
@@ -103,11 +110,16 @@ text-align: left;
 /* inspiration section */
 
 .inspire{
-    margin: 10px 12px 10px 12px;
-
+    background-color: rgba(240, 248, 255, 0.562);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
     padding-top: 5%;
-
+    padding-bottom: 5%;
+    border-radius: 15px;
     padding-left: 0%;
+
 
 }
 .inspire-title{
@@ -117,10 +129,32 @@ text-align: left;
 
 .inspire-desc{
     padding-bottom: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
     
 }
 
 /* target section */
+
+.first-main{
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-top: 2%;
+}
+
+.second-main{
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-top: 2%;
+}
+
+.third-main{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2%;
+}
 
 .target-head{
 
@@ -131,7 +165,8 @@ text-align: left;
     display: flex;
     margin-left: 15%;
     margin-right: 15%;
-    background-color: white;
+    
+    
     
     
 }
@@ -140,9 +175,10 @@ text-align: left;
 .skills{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
     border-radius: 16px;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 background: rgba(13, 19, 33, 0.02);
 }
 
@@ -183,13 +219,22 @@ background: rgba(255, 76, 30, 0.05);
 
 .footer{
     background-image: url('../handshake.jpg');
-    padding: 5% 0% 5% 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
     border-radius: 16px;
 
 }
 
 .footer-title{
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.support-desc{
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 
 .input{
@@ -205,7 +250,7 @@ background: rgba(255, 76, 30, 0.05);
 }
 
 .support-ti-desc{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .support-input{
