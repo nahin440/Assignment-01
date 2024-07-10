@@ -215,30 +215,52 @@ background: rgba(255, 76, 30, 0.05);
              
             }
 
+   .skill-link{
+    text-decoration: none;
+    color: rgb(0, 9, 57);
+   }         
+
 /* footer style */
 
 .footer{
     background-image: url('../handshake.jpg');
-    padding-top: 5%;
-    padding-bottom: 5%;
+ 
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    padding:64px 48px;
+    border-radius: 15px;
     
-    border-radius: 16px;
 
 }
 
 .footer-title{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
 }
+
+.footer-support-title{
+    font-weight: 700;
+    font-size: 35px; 
+    color: rgb(255, 255, 255);   
+    text-shadow: 2px 2px 2px #000000,
+    2px 2px 2px #000000   ;
+}
+
 .support-desc{
     margin-left: 15%;
     margin-right: 15%;
-
+    color: rgb(255, 231, 231);   
+    text-shadow: 4px 4px 4px #000000,
+    3px 3px 3px #000000   ;
 }
 
+
+
 .input{
-    display: flex;
+    display: flex ;
     justify-content: center;
     gap: 2%;
 }
